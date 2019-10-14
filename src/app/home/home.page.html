@@ -1,14 +1,45 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Sabiduria tecnologica
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <ion-card>
+    <ion-card-header>
+      <h1><b>Lugares del tecnologico</b></h1>
+    </ion-card-header>
+
+    <ion-list>
+      <button ion-item routerLink="/administrativos">
+        <img ion-item src="http://pisamipruebas.ibague.gov.co/app/PISAMI/modulos/administrativa/gestiondocumental/maestros/iconos/documento_electronico/icon-choice.png" alt="">
+        <h3>Administrativos</h3>
+      </button>
+      <br>
+      <br>
+
+      <button ion-item routerLink="/salones">
+        <img ion-item src="https://static.wixstatic.com/media/0e84d6_52ef40f028ad45bd84f8d4ed6d1e5473~mv2.png" alt="">
+        <h3>Salones</h3>
+      </button>
+      <br>
+     
+      <br>
+
+      <button ion-item routerLink="/loncherias">
+        <img ion-item src=" https://centraldetortas.mx/wp-content/uploads/2019/07/Slider-2_Central-de-Tortas_4.png" alt="">
+        <h3>Loncherias</h3>
+      </button>
+
+      <br>
+      <br>
+
+      <button ion-item routerLink="/canchas">
+        <img ion-item src="https://www.cuperacredita.es/img/iconos/icono-deportes.svg" alt="">
+        <h3>Canchas</h3>
+      </button>
+    </ion-list>
+  </ion-card>
 </ion-content>

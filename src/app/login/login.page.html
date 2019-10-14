@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title text-center>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light" padding>
+  <img class="icon" src="assets/img/tec.png">
+  <ion-grid>
+    <form><!--enlaza con el submit-->
+      <ion-row>
+        <ion-col>
+          <div padding>
+            <!--Campos, un campo siempre deb etsar dentro de un iom item-->
+            <ion-item>
+              <ion-input type="email" placeholder="your@email.com"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="password" placeholder="password"></ion-input>
+            </ion-item>
+          </div>
+          <div padding>
+            <ion-button type="button" (click)="login()" size="large" expand="block"  >Entrar</ion-button>
+          </div>
+        </ion-col>
+
+      </ion-row>
+
+    </form>
+    <div text-center>
+      Si no tienes una cuenta, por favor ¡<a routerLink="/register">registrate aqui</a>!
+    </div>
+  </ion-grid>
+</ion-content>
+
+

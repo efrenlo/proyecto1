@@ -1,1 +1,32 @@
 
+
+h3{
+    color: black;
+    text-align: center;
+    
+}
+
+
+ion-card{
+	text-align: center;
+	align-content: center;
+	align-self: center;
+	--background: white;
+	img{
+	  text-align: center;
+	  align-content: center;
+      align-self: center;
+      height: 200px;
+      width: 200px;
+	  
+	}
+}
+
+ion-content {
+    --background: none;
+    background-image: url('../../assets/img/escuela.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
